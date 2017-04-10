@@ -6,10 +6,12 @@ LIBS += -lsfml-graphics -lsfml-window -lsfml-system
 SOURCES += main.cpp \
     Map/mapobject.cpp \
     Game/game.cpp \
-    window.cpp
+    window.cpp \
+    gameinfoblock.cpp
 
 HEADERS += \
     Map/mapobject.h \
     Game/game.h \
-    window.h
+    window.h \
+    gameinfoblock.h
 

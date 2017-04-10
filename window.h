@@ -1,6 +1,7 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 #include "Game/game.h"
+#include "gameinfoblock.h"
 
 class Window
 {
@@ -8,7 +9,8 @@ class Window
     Game MainGame;
 public:
     Window();
-    void Setup();
+    void Setup(GameInfoBlock&);
+    void Start();
 };
 
 #endif // WINDOW_H
