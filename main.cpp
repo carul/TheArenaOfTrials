@@ -1,10 +1,9 @@
-#include <iostream>
-
-using namespace std;
+#include "window.h"
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Window GameWindow;
+    GameWindow.Setup();
     return 0;
 }
 
