@@ -7,11 +7,15 @@ SOURCES += main.cpp \
     Map/mapobject.cpp \
     Game/game.cpp \
     window.cpp \
-    gameinfoblock.cpp
+    gameinfoblock.cpp \
+    screen.cpp \
+    Interface/button.cpp
 
 HEADERS += \
     Map/mapobject.h \
     Game/game.h \
     window.h \
-    gameinfoblock.h
+    gameinfoblock.h \
+    screen.h \
+    Interface/button.h
 

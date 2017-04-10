@@ -16,3 +16,18 @@ void Game::DrawGame()
         obj.Draw();
     }
 }
+
+
+void Game::Click(float x, float y, bool right)
+{
+    MapObject tempobj;
+    tempobj.Position ={x,y};
+    tempobj.Dimensions={1,1};
+    for(auto&& object: this->MapObjects)
+    {
+        if(object.CollidesWith({tempobj}) && object.Clickable)
+        {
+            break;
+        }
+    }
+}

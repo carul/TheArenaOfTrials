@@ -4,16 +4,18 @@
 
 class MapObject
 {
+public:
     struct coord{
         float X;
         float Y;
     };
     coord Position;
     coord Dimensions;
-public:
+    bool Collidable;
+    bool Clickable;
     int PosZ;
-    virtual void Draw();
     MapObject();
+    virtual void Draw();
     bool CollidesWith(MapObject);
 };
 
