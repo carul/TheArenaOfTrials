@@ -3,10 +3,12 @@
 #include "Game/game.h"
 #include "screen.h"
 #include "gameinfoblock.h"
+#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
 
 class Window
 {
-    sf::Window MWindow;
+    sf::RenderWindow MWindow;
     Game MainGame;
     Screen *Display;
 public:

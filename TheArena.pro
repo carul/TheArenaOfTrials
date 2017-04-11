@@ -9,7 +9,10 @@ SOURCES += main.cpp \
     window.cpp \
     gameinfoblock.cpp \
     screen.cpp \
-    Interface/button.cpp
+    Interface/button.cpp \
+    Interface/globalinterfacedata.cpp \
+    Menu/menu.cpp \
+    Interface/uielement.cpp
 
 HEADERS += \
     Map/mapobject.h \
@@ -17,5 +20,8 @@ HEADERS += \
     window.h \
     gameinfoblock.h \
     screen.h \
-    Interface/button.h
+    Interface/button.h \
+    Interface/globalinterfacedata.h \
+    Menu/menu.h \
+    Interface/uielement.h
 

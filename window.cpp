@@ -1,5 +1,5 @@
 #include "window.h"
-#include <iostream>
+#include <SFML/Graphics.hpp>
 
 Window::Window() : MainGame(MWindow)
 {
@@ -23,7 +23,9 @@ void Window::Start()
 {
     while(this->MWindow.isOpen())
     {
+        this->MWindow.clear(sf::Color(255,0,100));
         this->CaptureGlobalEvents();
+        this->MWindow.display();
     }
 }
 

@@ -27,6 +27,7 @@ void Game::Click(float x, float y, bool right)
     {
         if(object.CollidesWith({tempobj}) && object.Clickable)
         {
+            //TODO: implement
             break;
         }
     }
